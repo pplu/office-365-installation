@@ -11,12 +11,12 @@ Luckily, Microsoft can help you :)
 
 # Office Deployment Tool
 
-Welcome [https://www.microsoft.com/en-us/download/details.aspx?id=49117](ODT) (Office Deployment Tool). This utility
+Welcome [ODT](https://www.microsoft.com/en-us/download/details.aspx?id=49117) (Office Deployment Tool). This utility
 helps us download and install any version of Office 365 that has been published. Although its built to help automate 
 Office 365 installations, if correctly instructed, we can control the exact version of Office applications that it 
-installs. See an overview of its functionality [https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool](here).
+installs. See an overview of its functionality [here](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool).
 
-All we need to do is to [https://www.microsoft.com/en-us/download/details.aspx?id=49117](download ODT), extract it to 
+All we need to do is to [download ODT](https://www.microsoft.com/en-us/download/details.aspx?id=49117), extract it to 
 a directory (`c:\ODT` in this article), and write a configuration file:
 
 # Configuring ODT
@@ -35,9 +35,9 @@ ODT is controlled with an XML file. Create a file `office.xml` in `c:\ODT\`:
 
 Set the `Version` attribute according to the version you want installed.
 Office 365 applications seem to be version `16.0`, followed by a *build number* (which you can find on the 
-[https://docs.microsoft.com/en-gb/officeupdates/update-history-microsoft365-apps-by-date](version history page).
+[version history page](https://docs.microsoft.com/en-gb/officeupdates/update-history-microsoft365-apps-by-date).
 Note also that this config defaults to the *Current* channel. Take a look at `Channel` attribute, which is documented in
-the [https://docs.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options](configuration options of ODT).
+the [configuration options of ODT](https://docs.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options).
 
 # Download and install
 
